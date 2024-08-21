@@ -1,0 +1,103 @@
+body {
+  background-color: #e4e7e9;
+  color: #F5F7F8;
+  margin: 0;
+
+}
+
+/*Barra parte superior*/
+.barra {
+  background-color: #FF9100;
+  display: flex;
+}
+
+a {
+  text-decoration: none;
+  color: #F5F7F8;
+  padding: 0 10px;
+}
+
+/*esto provoca que la parte del formulario este alineada*/
+.centrar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  flex-direction: column;
+}
+
+/*Formulario del texto*/
+
+.primerformulario{
+  /*background-color: #F4CE14;*/
+  display: flex;
+  align-items: start;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.Ftext {
+  display: flex;
+  flex-direction: column;
+  margin: 20px 50px;
+}
+
+.separa {
+  margin-bottom: 60px;
+}
+
+/*Pregunta 1*/
+.segundoformulario {
+  /*background-color: #827430;*/
+
+  display: flex;
+  align-items: start;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.pregunta {
+  padding-left: 50px;
+  margin-bottom: 0;
+}
+
+/*Pregunta 2*/
+.Fradio {
+  display: flex;
+  flex-direction: column;
+  margin: 20px 50px;
+}
+
+.alinearIzquierda {
+  /*background-color: #F4CE14;*/
+  width: 250px;
+  display: flex;
+  justify-content: end;
+}
+
+
+/*boton*/
+.boton {
+  background-color: #F5F7F8;
+  border: #F5F7F8 solid 2px;
+  font-weight: bolder;
+  margin-bottom: 8vh;
+}
+
+.fondo {
+  background-color: #FF9100;
+  width: 300px;
+  border-radius: 0 0 20px 0;
+}
+
+
+/*hover de boton y a*/
+.boton:hover {
+  background-color: #e5c110;
+  border: #F4CE14 solid 2px;
+  color: #F5F7F8;
+}
+
+a:hover {
+  background-color: #c46f00;
+}
